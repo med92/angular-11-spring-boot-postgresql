@@ -8,11 +8,10 @@
 		<version>2.3.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bezkoder</groupId>
-	<artifactId>spring-boot-jpa-postgresql</artifactId>
+	<groupId>com.cagip.tools</groupId>
+	<artifactId>mscontact</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-jpa-postgresql</name>
-	<description>Spring Boot, PostgreSQL example with Maven, Spring JPA</description>
+	<name>mscontact</name>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -45,6 +44,21 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.28</version>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
